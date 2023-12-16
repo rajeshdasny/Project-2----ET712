@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #040404;
+    text-align: center;
+    color: #030506;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #040505;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(21, 109, 153, 0.3);
+}
+
+h1 {
+    color: #64b5f6;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #3397c9;
+    margin-bottom: 15px;
+}
+
+input {
+    text-align: center;
+    width: 80%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #64b5f6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #000000;
+    color: #357bd2;
+}
+
+button {
+    width: 50%;
+    padding: 12px;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #011822;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgba(63, 144, 184, 0.3);
+}
+
+button:hover {
+    background-color: #42a5f5;
+}
+
+#message {
+    margin-top: 15px;
+    color: #ef5350;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#currentScore, #highScore {
+    font-weight: bold;
+    font-size: 18px;
+    color: #64b5f6;
+}
+
+#secretNumber {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #66bb6a;
+}
+
+.correctGuess {
+    background-color: #66bb6a;
+    transition: background-color 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    input, button {
+        width: 100%;
+    }
+}
+
